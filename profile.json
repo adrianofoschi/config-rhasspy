@@ -1,0 +1,28 @@
+{
+    "handle": {
+        "system": "hass"
+    },
+    "home_assistant": {
+        "access_token": "...",
+        "url": "http://192.168.0.100:8123"
+    },
+    "sounds": {
+        "aplay": {
+            "device": "sysdefault:CARD=seeed2micvoicec"
+        }
+    },
+    "text_to_speech": {
+        "disable_wake": false,
+        "picotts": {
+            "language": "it-IT"
+        },
+        "system": "picotts"
+    },
+    "wake": {
+        "system": "snowboy",
+        "snowboy": {
+            "model": "snowboy/jarvis.umdl",
+            "sensitivity": "0.5,0.5"
+        }
+    }
+}
