@@ -1,28 +1,25 @@
 {
+    "command": {
+        "webrtcvad": {
+            "timeout_sec": 3,
+            "throwaway_buffers": 0,
+            "speech_buffers": 1,
+            "vad_mode": 1
+        }
+    },
     "handle": {
         "system": "hass"
     },
     "home_assistant": {
-        "access_token": "...",
+        "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI0NGUwZTFlNTY3OGQ0ZjRjYjM1MDg1YjIyMDVjNzU1YiIsImlhdCI6MTU3OTAyMzczNywiZXhwIjoxODk0MzgzNzM3fQ.to4WEwVBm73FawPJfGQwoVwfjDGtEIRPxxPoAzX5N6I",
         "url": "http://192.168.0.100:8123"
     },
-    "sounds": {
-        "aplay": {
-            "device": "sysdefault:CARD=seeed2micvoicec"
-        }
-    },
-    "text_to_speech": {
-        "disable_wake": false,
-        "picotts": {
-            "language": "it-IT"
-        },
-        "system": "picotts"
-    },
     "wake": {
-        "system": "snowboy",
         "snowboy": {
+            "apply_frontend": true,
             "model": "snowboy/jarvis.umdl",
-            "sensitivity": "0.5,0.5"
-        }
+            "sensitivity": "0.6,0.6"
+        },
+        "system": "snowboy"
     }
 }

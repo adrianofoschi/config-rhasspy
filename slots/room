@@ -1,6 +1,6 @@
-(bagnetto|bagno blu):bagnetto
-(camera|camera [da] letto):camera
-cucina
 (salone|soggiorno):salone
+bagno
 cameretta
-(bagno|bagno grande):bagno
+cucina
+(camera|camera [da] letto):camera
+bagnetto
