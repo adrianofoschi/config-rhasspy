@@ -1,9 +1,9 @@
 {
     "command": {
         "webrtcvad": {
-            "timeout_sec": 3,
-            "throwaway_buffers": 0,
             "speech_buffers": 1,
+            "throwaway_buffers": 0,
+            "timeout_sec": 4,
             "vad_mode": 1
         }
     },
@@ -12,6 +12,7 @@
     },
     "home_assistant": {
         "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI0NGUwZTFlNTY3OGQ0ZjRjYjM1MDg1YjIyMDVjNzU1YiIsImlhdCI6MTU3OTAyMzczNywiZXhwIjoxODk0MzgzNzM3fQ.to4WEwVBm73FawPJfGQwoVwfjDGtEIRPxxPoAzX5N6I",
+        "handle_type": "intent",
         "url": "http://192.168.0.100:8123"
     },
     "wake": {
