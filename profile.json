@@ -3,15 +3,14 @@
         "webrtcvad": {
             "speech_buffers": 1,
             "throwaway_buffers": 0,
-            "timeout_sec": 4,
-            "vad_mode": 1
+            "timeout_sec": 3
         }
     },
     "handle": {
         "system": "hass"
     },
     "home_assistant": {
-        "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI0NGUwZTFlNTY3OGQ0ZjRjYjM1MDg1YjIyMDVjNzU1YiIsImlhdCI6MTU3OTAyMzczNywiZXhwIjoxODk0MzgzNzM3fQ.to4WEwVBm73FawPJfGQwoVwfjDGtEIRPxxPoAzX5N6I",
+        "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI5NzUxNjVkOTlmZWE0NmVjYjg2ZmNhNzE5ZTM2NmI3MyIsImlhdCI6MTU3OTY3ODk5MiwiZXhwIjoxODk1MDM4OTkyfQ.O8r5Zu-oJUgsxm-KQp6uCJOdG0cTuxMyqqR-E3SuGmY",
         "handle_type": "intent",
         "url": "http://192.168.0.100:8123"
     },

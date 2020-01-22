@@ -1,2 +1,2 @@
-(luce [in][del] salone|luce [in][del] soggiorno):luce_salone
 (luce [in][della] camera [da] [letto]|luce [in][della] camera [da] [letto]):luce_camera
+(luce [in][del] salone|luce [in][del] soggiorno):luce_salone

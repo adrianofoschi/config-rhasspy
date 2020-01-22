@@ -1,2 +1,2 @@
-(zona giorno):ir_salone
-(zona notte):ir_corridoio
+(zona notte):ac_zona_notte
+(zona giorno):ac_zona_giorno

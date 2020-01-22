@@ -1,7 +1,7 @@
-bagnetto
-corridoio
+bagno
 cucina
-(salone|soggiorno):salone
+corridoio
 cameretta
 (camera|camera [da] letto):camera
-bagno
+bagnetto
+(salone|soggiorno):salone
