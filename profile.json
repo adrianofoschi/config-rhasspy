@@ -10,7 +10,7 @@
         "system": "hass"
     },
     "home_assistant": {
-        "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI5NzUxNjVkOTlmZWE0NmVjYjg2ZmNhNzE5ZTM2NmI3MyIsImlhdCI6MTU3OTY3ODk5MiwiZXhwIjoxODk1MDM4OTkyfQ.O8r5Zu-oJUgsxm-KQp6uCJOdG0cTuxMyqqR-E3SuGmY",
+        "access_token": "...",
         "handle_type": "intent",
         "url": "http://192.168.0.100:8123"
     },
