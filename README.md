@@ -1,2 +1,1 @@
-# config-rhasspy
-Rhasspy Voice Assistant Configuration
+# dotfiles-rhasspy
